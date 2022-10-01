@@ -92,6 +92,89 @@
           <option>Small</option>
           <option>Large</option>
         </select>
+        <input type="number" value="1" />
+        <button class="normal">Add To Cart</button>
+        <h4>Product Details</h4>
+        <span
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+          ipsam autem nam minima consectetur. Quae suscipit sapiente vero
+          temporibus, optio rem recusandae ratione enim laudantium dolorem
+          minima totam est eius? Soluta veniam commodi nisi corrupti consequatur
+          quibusdam modi aliquam tenetur, dolor eius nobis. Doloribus architecto
+          voluptas facilis nisi? Dignissimos nobis unde vitae fugiat corrupti
+          nostrum, iste rerum eaque labore necessitatibus.</span
+        >
+      </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>Summer Collection New Modern Design</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="Images/products/n1.jpg" alt="" />
+          <div class="des">
+            <span>Adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="Images/products/n2.jpg" alt="" />
+          <div class="des">
+            <span>Adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="Images/products/n3.jpg" alt="" />
+          <div class="des">
+            <span>Adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="Images/products/n4.jpg" alt="" />
+          <div class="des">
+            <span>Adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
       </div>
     </section>
 
@@ -158,6 +241,24 @@
         <img src="Images/pay/pay.png" alt="" />
       </div>
     </footer>
+
+    <script>
+      let MainImg = document.getElementById('MainImg');
+      let smallImg = document.getElementsByClassName('small-img');
+
+      smallImg[0].onclick = function () {
+        MainImg.src = smallImg[0].src;
+      };
+      smallImg[1].onclick = function () {
+        MainImg.src = smallImg[1].src;
+      };
+      smallImg[2].onclick = function () {
+        MainImg.src = smallImg[2].src;
+      };
+      smallImg[3].onclick = function () {
+        MainImg.src = smallImg[3].src;
+      };
+    </script>
 
     <script src="app.js"></script>
   </body>
