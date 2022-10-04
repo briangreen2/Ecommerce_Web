@@ -733,6 +733,7 @@ footer a:hover {
 
 /* Start Media Query */
 
+/* Medium Screen Devices */
 @media (max-width: 799px) {
   .section-p1 {
     padding: 40px 40px;
@@ -847,6 +848,7 @@ footer a:hover {
   }
 }
 
+/* Small Screen devices */
 @media (max-width: 477px) {
   .section-p1 {
     padding: 20px;
@@ -942,5 +944,24 @@ footer a:hover {
     width: 100%;
     margin-right: 0px;
     margin-bottom: 30px;
+  }
+
+  /* About Page */
+
+  #about-head {
+    flex-direction: column;
+  }
+
+  #about-head img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #about-head div {
+    padding-left: 0px;
+  }
+
+  #about-app .video {
+    width: 100%;
   }
 }
